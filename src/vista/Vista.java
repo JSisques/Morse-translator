@@ -30,7 +30,7 @@ public class Vista extends JFrame {
 		txtTexto.setBounds(15, 25, 470, 100);
 		getContentPane().add(txtTexto);
 		
-		btnTraducir = new JButton("Traducir");
+		btnTraducir = new JButton("Translate");
 		btnTraducir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				controlador.solicitudTraduccion();
